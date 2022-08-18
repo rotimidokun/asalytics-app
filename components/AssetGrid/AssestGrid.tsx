@@ -5,7 +5,7 @@ import styles from "./AssetGrid.module.css";
 import { useQuery } from "@apollo/client";
 import { LOAD_USERS } from "../../GraphQL/Queries";
 
-const AssestGrid = ({}) => {
+const AssestGrid = () => {
   const { error, loading, data } = useQuery(LOAD_USERS);
   const [assets, setAssets] = useState([]);
 
