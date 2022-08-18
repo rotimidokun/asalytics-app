@@ -1,0 +1,22 @@
+.headerWrapper {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3.5rem;
+    justify-content: space-between;
+}
+
+.headerButton {
+    background-color: black;
+    border-radius: 8px;
+    height: 50px;
+    padding: 1.5rem 1.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerButton a {
+    font-weight: 300;
+}

@@ -1,0 +1,42 @@
+.assetGridWrapper {
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+    padding: 6rem 1.5rem;
+    color: black;
+    justify-content: center;
+}
+
+.loadingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15.6rem;
+}
+
+.loading {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.loadbar {
+	width: 200px;
+	height: 18px;
+	border: 1px #000 solid;
+	border-radius: 4px;
+	background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);
+	background-size: 20px 30px;
+	background-position: 0px 0px;
+	-webkit-animation: spLoadBar 0.8s infinite linear;
+	animation: spLoadBar 0.8s infinite linear;
+}
+@-webkit-keyframes spLoadBar {
+	from { background-position: 0px 0px; }
+	to { background-position: -20px 0px; }
+}
+@keyframes spLoadBar {
+	from { background-position: 0px 0px; }
+	to { background-position: -20px 0px; }
+}
