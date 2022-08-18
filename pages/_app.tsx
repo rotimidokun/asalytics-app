@@ -23,14 +23,16 @@ const link = from([
 ]);
 
 const client = new ApolloClient({
-  cache: new InMemoryCache(),
   link: link,
+  cache: new InMemoryCache(),
 });
 
 function MyApp() {
-  return <ApolloProvider client={client}>
+  return (
+  <ApolloProvider client={client}>
     <Home />
   </ApolloProvider>
+  )
 }
 
 export default MyApp;

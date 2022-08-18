@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../../styles/SingleAsset.module.css";
+import styles from "./SingleAsset.module.css";
 
 interface AssetType {
   assetId: string;

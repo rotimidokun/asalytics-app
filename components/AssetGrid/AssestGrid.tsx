@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SingleAsset, { Asa } from "../SingleAsset/SingleAsset";
-import styles from "../../styles/AssetGrid.module.css";
+import styles from "./AssetGrid.module.css";
 
 import { useQuery } from "@apollo/client";
 import { LOAD_USERS } from "../../GraphQL/Queries";
