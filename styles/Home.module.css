@@ -9,13 +9,26 @@
 .title {
   color: #000000;
   font-weight: 500;
-  width: 40%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   line-height: 3rem;
 }
 
+@media screen and (min-width: 992px) {
+  .title {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    width: 80%;
+  }
+}
 
 @media (max-width: 600px) {
   .grid {
